@@ -1,7 +1,7 @@
 class ATM:
     def _init_(self):
         self.balance = 765490
-        self.pin = 2305    
+        self.pin = 2305     
 
     def check_pin(self):
         for _ in range(3):  
